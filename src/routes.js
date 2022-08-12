@@ -20,9 +20,9 @@ export default function Router() {
       <Route
         path="/dashboard/*"
         element={
-          <ProtectedRoute>
+      
             <RouteAutenticate />
-          </ProtectedRoute>
+          
         }
       />
     </Routes>
